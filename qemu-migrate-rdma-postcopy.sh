@@ -3,7 +3,7 @@
 set -e
 
 # Path to the Unix socket used by QEMU for the monitor
-MONITOR_SOCKET="/users/lnqq/u20s.sock"
+MONITOR_SOCKET="./u20s.sock"
 
 # Use socat to interact with the QEMU monitor 
 SOCAT_CMD="sudo socat - UNIX-CONNECT:$MONITOR_SOCKET"

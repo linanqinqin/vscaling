@@ -18,5 +18,5 @@ sudo qemu-system-x86_64 \
     -vnc localhost:0
 
 # prepare migration on the destination machine
-ssh node1 "/users/lnqq/start-vm.sh"
+ssh node1 "/users/lnqq/vscaling/start-vm-dst.sh"
 
